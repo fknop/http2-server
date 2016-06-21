@@ -15,3 +15,10 @@ $ npm install -g @fknop/http2-server
 * path (--path): The path to the directory to be served. Default to current directory.
 * index (--index): The index file name. Default to `index.html`.
 * listing (--listing): If no index can be found, list the files in the directory. Default to true.
+* open (--open): If present, will open the url in a browser. If no browser is specified, it will open with chrome.
+    + `http2-server --open`: Open with chrome
+    + `http2-server --open firefox`: Open with firefox
+
+## Notes
+
+Don't forget to add the `https` before the localhost in the url.
