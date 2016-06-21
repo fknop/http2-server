@@ -1,7 +1,7 @@
 {
   "name": "@fknop/http2-server",
   "version": "1.0.0",
-  "description": "HTTP2 static directory server based on Hapi",
+  "description": "HTTP2 static directory server written with Hapi",
   "main": "lib/index.js",
   "scripts": {
     "start": "node bin/http2-server.js"
@@ -17,5 +17,15 @@
     "http2": "^3.3.4",
     "inert": "^4.0.0",
     "pem": "^1.8.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fknop/http2-server.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/fknop/http2-server/issues"
+  },
+  "homepage": "https://github.com/fknop/http2-server#readme"
 }

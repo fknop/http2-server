@@ -1,6 +1,6 @@
 # @fknop/http2-server
 
-Simple http2 server written with HapiJS. No many features, just created this for my use case.
+Simple http2 server written with HapiJS. Not many features, just created this for my use case.
 
 ## Options
 
