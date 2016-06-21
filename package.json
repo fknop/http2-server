@@ -1,0 +1,21 @@
+{
+  "name": "@fknop/http2-server",
+  "version": "1.0.0",
+  "description": "HTTP2 static directory server based on Hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node bin/http2-server.js"
+  },
+  "bin": {
+    "http2-server": "./bin/http2-server.js"
+  },
+  "author": "Florian Knop",
+  "license": "MIT",
+  "dependencies": {
+    "glue": "^3.3.0",
+    "hapi": "^13.4.1",
+    "http2": "^3.3.4",
+    "inert": "^4.0.0",
+    "pem": "^1.8.3"
+  }
+}
