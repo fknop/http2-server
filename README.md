@@ -2,6 +2,13 @@
 
 Simple http2 server written with HapiJS. Not many features, just created this for my use case.
 
+## Install
+
+```
+$ npm install -g @fknop/http2-server
+```
+
+
 ## Options
 
 * port (--port): The port on which the server will be running. Default to `8080`.
