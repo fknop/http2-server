@@ -1,6 +1,6 @@
 {
   "name": "@fknop/http2-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTTP2 static directory server written with Hapi",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "author": "Florian Knop",
   "license": "MIT",
   "dependencies": {
+    "args": "^1.2.1",
     "glue": "^3.3.0",
     "hapi": "^13.4.1",
     "http2": "^3.3.4",
