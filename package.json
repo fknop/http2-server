@@ -1,6 +1,6 @@
 {
   "name": "@fknop/http2-server",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "HTTP2 static directory server written with Hapi",
   "main": "lib/index.js",
   "scripts": {
